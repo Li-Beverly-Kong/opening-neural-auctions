@@ -180,7 +180,3 @@ Feature selection for the reported AUCs is performed on the discovery split; the
 | File | Contents |
 |---|---|
 | `figures/fig_d_case_diagnostics.pdf` | Allocation and activation-matrix preview for the two cases |
-
-## Citation
-
-Please cite the associated arXiv paper, *Opening the Black Box of Neural Auction Mechanisms*. Add the final arXiv identifier and BibTeX entry here once assigned.
