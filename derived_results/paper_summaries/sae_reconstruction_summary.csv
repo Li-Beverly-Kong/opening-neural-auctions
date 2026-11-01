@@ -1,0 +1,10 @@
+paper_item,metric,value,definition
+Table 1,mean_sparsity_l0,31.998,Mean number of active SAE features per bidder-item representation
+Table 1,standardized_reconstruction_mse,4.4360792636871336e-05,Mean squared error in standardized hidden-representation space
+Table 1,inactive_feature_fraction,0.009765625,Fraction of 512 dictionary features with zero held-out activation count
+Table 1,mean_allocation_l1_difference,0.0030128404032438993,Mean auction-level allocation L1 difference between SAE reconstruction and original mechanism
+Table 1,mean_payment_l1_difference,0.0005341860232874751,Mean auction-level payment L1 difference between SAE reconstruction and original mechanism
+Table 3,seller_revenue_mean_difference,-1.572818593698422e-05,Reconstructed minus original seller revenue averaged over test auctions
+Table 3,social_welfare_mean_difference,-2.463365837316019e-06,Reconstructed minus original social welfare averaged over test auctions
+Table 3,allocation_uncertainty_mean_difference,-1.2691806509925336e-05,Reconstructed minus original allocation entropy averaged over test auctions
+Table 3,winner_margin_mean_difference,1.2330961267392937e-05,Reconstructed minus original winner margin averaged over test auctions

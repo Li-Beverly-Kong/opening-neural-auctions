@@ -1,0 +1,4 @@
+setting,n_dictionary_features,n_strong,regret_increasing_bh,regret_decreasing_bh,payment_share_regret_increasing_bh,payment_share_regret_decreasing_bh
+2x5c,512,165,26,17,17,11
+2x1c,512,106,37,43,23,27
+2x5d,512,142,43,10,19,3

@@ -1,0 +1,8 @@
+target,n_strong,raw_regret_increasing,raw_regret_decreasing,bh_regret_increasing,bh_regret_decreasing,max_increasing_slope,max_decreasing_slope
+allocation_uncertainty,6,2,4,0,1,1.27e-06,-3.44e-06
+bidder_utility,22,12,10,3,0,1.14e-02,-2.49e-06
+payment_to_value,89,48,41,17,11,1.38e-02,-4.30e-04
+seller_revenue,20,12,8,3,1,1.93e-04,-1.93e-05
+social_welfare,8,6,2,3,1,5.59e-04,-5.23e-04
+winner_margin,20,8,12,0,3,2.61e-06,-8.64e-04
+all_targets,165,88,77,26,17,,

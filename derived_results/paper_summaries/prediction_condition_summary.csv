@@ -1,0 +1,8 @@
+condition,precision,recall,precision_ci95_low,precision_ci95_high,recall_ci95_low,recall_ci95_high
+full_explanation,0.630,0.672,0.619,0.640,0.655,0.688
+explanation_only,0.591,0.586,0.579,0.604,0.561,0.610
+frequency_matched,0.509,0.470,0.493,0.524,0.445,0.496
+shuffled_explanation,0.505,0.460,0.489,0.520,0.434,0.484
+random,0.499,0.495,0.492,0.506,0.487,0.504
+target_only,0.481,0.466,0.464,0.498,0.441,0.492
+always_active,0.501,1.000,0.497,0.505,1.000,1.000

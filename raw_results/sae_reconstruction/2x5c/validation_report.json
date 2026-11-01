@@ -1,0 +1,42 @@
+{
+  "sae_ckpt": "/tmp/amd_phase1_run/artifacts/sae/phase1/models/2x5c_fc_layer1_topk32_true_value/sae.pt",
+  "sae_kind": "topk",
+  "n_features": 512,
+  "activation_source": "true_value",
+  "behavior_source_split": "train",
+  "hook_type": "fc",
+  "hook_layer": 1,
+  "n_eval": 1000,
+  "quick": false,
+  "misreport_opt_chunk_size": 10,
+  "activation_reconstruction": {
+    "data_dir": "/tmp/amd_phase1_run/artifacts/sae/phase1/activations/2x5c_fc_layer1_topk32_true_value/sae_testset/true_value",
+    "sae_ckpt": "/tmp/amd_phase1_run/artifacts/sae/phase1/models/2x5c_fc_layer1_topk32_true_value/sae.pt",
+    "sae_kind": "topk",
+    "n_rows_used": 40000,
+    "n_features": 512,
+    "recon_mse_normalized": 4.4360792636871336e-05,
+    "avg_l0": 31.998075,
+    "dead_frac": 0.009765625
+  },
+  "hook_reconstruction": {
+    "hook_recon_mse_normalized": 4.575905669480562e-05,
+    "hook_avg_l0": 31.9976,
+    "hook_dead_frac": 0.037109375
+  },
+  "citransnet_baseline": {
+    "profit": 1.1577341198921203,
+    "regret_mean": 5.076674854082031e-07,
+    "regret_max": 0.0007873773574829102
+  },
+  "citransnet_patched": {
+    "profit": 1.1576700270175935,
+    "regret_mean": 2.668849676812357e-07,
+    "regret_max": 0.0005334615707397461
+  },
+  "citransnet_delta": {
+    "profit": -6.40928745267999e-05,
+    "regret_mean": -2.407825177269674e-07,
+    "regret_max": -0.00025391578674316406
+  }
+}

@@ -1,0 +1,6 @@
+region,readout_level,feature_id,activation_orientation,target,auc
+no_sale,auction,62,low,seller_revenue,0.9636
+bidder_0_wins,auction,233,high,payment_to_value,0.6789
+bidder_1_wins,auction,62,high,seller_revenue,0.7161
+bidder_0_wins,bidder,73,high,payment_to_value,0.9129
+bidder_1_wins,bidder,421,high,payment_to_value,0.9277

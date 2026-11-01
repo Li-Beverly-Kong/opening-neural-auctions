@@ -1,0 +1,10 @@
+{
+  "data_dir": "/tmp/amd_phase1_run/artifacts/sae/phase1/activations/2x5c_fc_layer1_topk32_true_value/sae_testset/true_value",
+  "sae_ckpt": "/tmp/amd_phase1_run/artifacts/sae/phase1/models/2x5c_fc_layer1_topk32_true_value/sae.pt",
+  "sae_kind": "topk",
+  "n_rows_used": 40000,
+  "n_features": 512,
+  "recon_mse_normalized": 4.4360792636871336e-05,
+  "avg_l0": 31.998075,
+  "dead_frac": 0.009765625
+}

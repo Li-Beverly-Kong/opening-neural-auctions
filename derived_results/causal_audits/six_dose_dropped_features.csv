@@ -1,0 +1,8 @@
+feature_id,directional_q_value,mean_curve_monotone,fails_significance,fails_monotonicity
+16,1,False,True,True
+62,2.2676510110201904e-49,False,False,True
+189,0.24725189675049822,False,True,True
+201,1,False,True,True
+222,1,False,True,True
+344,0.001529471875274854,False,False,True
+444,0.082215321782231759,False,True,True

@@ -1,0 +1,7 @@
+metric,four_dose,six_dose
+dictionary_features,512,512
+finite_directional_tests,492,492
+bh_significant_features,167,162
+strong_features,165,158
+retained_primary_strong_features,165,158
+retention_rate,,0.9575757575757575
